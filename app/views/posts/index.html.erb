@@ -12,14 +12,14 @@
                 <div class="card">
                             <div class="card-image">
                               <%= image_tag "foto7.jpg" %>
-                              <h1 class="card-title pink-text"><%=post.title%></h1>
                             </div>
                             <div class="card-content">
+                              <h1 class="gray-text"><%=post.title%></h1>
                               <p class="gray-text"><%= truncate(post.content, :length => 150) %></p>
                             </div>
                             <div class="card-action">
                               <p class="date"><%= post.created_at.strftime("%A,%b %d")%></p>
-                            
+
                               <%= link_to "Mais", post, class:"waves-effect waves-light pink lighten-4 btn"%>
                             </div>
                           </div>
