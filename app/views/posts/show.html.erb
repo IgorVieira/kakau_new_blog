@@ -12,13 +12,13 @@
                 <div class="card">
                             <div class="card-image">
                               <%= image_tag "foto7.jpg" %>
-                              <h1 class="card-title pink-text"><%= @post.title%></h1>
                             </div>
                             <div class="card-content">
+                              <h1 class="gray-text"><%= @post.title%></h1>
                               <p class="gray-text"><%= markdown @post.content %></p>
                             </div>
                             <div class="card-action">
-                              <p class="date"><%= @post.created_at.strftime("%A,%b %d")%></p>
+                              <p class="date"><%= @post.created_at.strftime("%b %d, %Y")%></p>
 
                             </div>
 
