@@ -28,7 +28,12 @@
 
 <%if notice%>
 <script type="text/javascript">
+ <% if user_signed_in? %>
   Materialize.toast('Welcome ^^!', 4000,'pink')
+ <% else %>
+ Materialize.toast('Good Bye ^^!', 4000,'pink')
+ <% end %>
+
 </script>
 <%elsif alert%>
   <script type="text/javascript">
