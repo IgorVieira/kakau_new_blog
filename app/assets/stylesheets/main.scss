@@ -206,3 +206,46 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .dropdown-content li a:hover{
   color: #f48fb1;
 }
+
+
+
+
+
+$dark: #424652;
+$white: #FFFFFF;
+$light: #9a9da4;
+$pinklight: #f48fb1;
+$border: #E9E9E9;
+
+.pagination:before,
+.pagination:after{
+	content: " ";
+	display: table;
+}
+
+.pagination:after{
+	clear:both;
+}
+
+.pagination{
+	text-align:center;
+	margin: 0 0 3em 0;
+	a, .previous_page, .current, .next_page{
+		padding: .75em 1em;
+		margin: 0 .5em;
+		border-radius: .15em;
+		line-height: 20px;
+    cursor: pointer;
+		text-decoration: none;
+		background: $white;
+		font-weight: 700;
+		font-size: .7em;
+		font-style: normal;
+		color:$dark;
+		&:hover{
+			background: $pinklight;
+			color:$white;
+		}
+
+	}
+}
