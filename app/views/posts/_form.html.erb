@@ -31,7 +31,10 @@
     ]
   ), { :class => 'browser-default' } %>
   </div>
-
+  <div class="input-field">
+  <%= f.label :image,'Imagem' %><br><br>
+  <%= f.file_field :image%>
+  </div>
 
   <br>
   <%= f.submit 'post', :class => 'pink lighten-4 btn' %>

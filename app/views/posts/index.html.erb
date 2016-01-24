@@ -11,7 +11,7 @@
                 <% @posts.each do |post| %>
                 <div class="card">
                             <div class="card-image">
-                              <%= image_tag "foto7.jpg" %>
+                              <%= image_tag "/uploads/#{post.id}/photos/#{post.image_filename}" %>
                             </div>
                             <div class="card-content">
                               <h1 class="gray-text"><%=post.title%></h1>
