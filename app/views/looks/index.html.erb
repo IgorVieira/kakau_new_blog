@@ -8,7 +8,7 @@
 				<% @posts.each do |post| %>
          <div class="card-panel">
           <div class="card-image">
-            <%= image_tag "/uploads/#{post.id}/photos/#{post.image_filename}" %>
+            <%= image_tag "/uploads/#{post.id}/photos/#{post.image_filename}", class:'responsive-img' %>
           </div>
 
 					<h2><%= post.title %></h2>
