@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
+gem "paperclip-dropbox", ">= 1.1.7"
 gem 'redcarpet','~> 3.2.2'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.0.7'
