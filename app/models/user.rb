@@ -4,6 +4,6 @@ class User < ActiveRecord::Base
   # For registerable another user
   # devise :database_authenticatable, :registerable,
   #        :recoverable, :rememberable, :trackable, :validatable
-  devise :database_authenticatable,
+  devise :database_authenticatable,:registerable,
          :recoverable, :rememberable, :trackable, :validatable
 end
