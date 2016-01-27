@@ -25,7 +25,7 @@
                     </div>
                     <%= render 'disqus'%>
                     <% if user_signed_in? %>
-                      <%= link_to "Deletar Post", root_path(@post), method: :delete, data:{confirm: "Are you sure?"}, class:'pink-text' %> |
+                     <%= link_to 'Delete', post_path(@post), method: :delete, data: { confirm: 'Você tem certeza?' } %>
                       <%= link_to "Editar Post", edit_post_path(@post), class:'pink-text' %>
                     <% end %>
               </div>
