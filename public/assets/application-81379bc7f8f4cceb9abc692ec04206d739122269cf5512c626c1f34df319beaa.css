@@ -150,22 +150,19 @@ p {
   cursor: pointer;
   position: fixed;
   bottom: 3.5em;
-  right: 2em;
+  right: 3em;
   display: none;
   z-index: 50;
   background-color: gray;
   border-color: #fff;
-  border-witdh: 2px;
+  border-witdh: 1px;
   border-witdh: medium;
   border-style: solid;
-  border-radius: 3px;
+  border-radius: 2px;
   color: #f48fb1;
-  padding: 1em 2rem;
+  padding: 0.5em 1rem;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
 }
 
 /* line 152, /home/igor/GitHub/kakau_new_blog/app/assets/stylesheets/main.scss */
@@ -14297,22 +14294,19 @@ p {
   cursor: pointer;
   position: fixed;
   bottom: 3.5em;
-  right: 2em;
+  right: 3em;
   display: none;
   z-index: 50;
   background-color: gray;
   border-color: #fff;
-  border-witdh: 2px;
+  border-witdh: 1px;
   border-witdh: medium;
   border-style: solid;
-  border-radius: 3px;
+  border-radius: 2px;
   color: #f48fb1;
-  padding: 1em 2rem;
+  padding: 0.5em 1rem;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
 }
 
 /* line 151, /home/igor/GitHub/kakau_new_blog/app/assets/stylesheets/main.scss */
